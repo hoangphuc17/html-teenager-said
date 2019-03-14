@@ -1,0 +1,434 @@
+body {
+    font-family: FiraSans-Regular;
+    font-weight: normal;
+    font-size: 10px;
+    color: #333;
+}
+a {
+    color: #333;
+}
+.bg-logo-saostar {
+    background-image: url(../images/logo-saostar.svg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-1 {
+    background-image: url(../images/bg-1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.bg-2 {
+    background-image: url(../images/bg-2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.bg-3 {
+    background-image: url(../images/bg-3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.bg-button-dang-ky {
+    background-image: url(../images/button-dang-ky.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.bg-button-gioi-thieu {
+    background-image: url(../images/button-gioi-thieu.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.bg-button-tin-tuc {
+    background-image: url(../images/button-tin-tuc.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.bg-button-xem-them {
+    background-image: url(../images/button-xem-them.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.bg-button-xem-them-2 {
+    background-image: url(../images/button-xem-them-2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+@font-face {
+    font-family: 'FiraSans-Regular';
+    font-display: auto;
+    src: url(../fonts/Fira_Sans/FiraSans-Regular.ttf) format('opentype');
+}
+
+@font-face {
+    font-family: 'FiraSans-Bold';
+    font-display: auto;
+    src: url(../fonts/Fira_Sans/FiraSans-Bold.ttf) format('opentype');
+}
+
+.ff-regular {
+    font-family: FiraSans-Regular;
+}
+
+.ff-bold {
+    font-family: FiraSans-Bold;
+}
+
+.f14 {
+    font-size: 1.4em;
+}
+.f16 {
+    font-size: 1.6em;
+}
+.f18 {
+    font-size: 1.8em;
+}
+.f20 {
+    font-size: 2em;
+}
+.f22 {
+    font-size: 2.2em;
+}
+.f25 {
+    font-size: 2.5em;
+}
+.f35 {
+    font-size: 3.5em;
+}
+.f45 {
+    font-size: 4.5em;
+}
+.f40 {
+    font-size: 4em;
+}
+.f60 {
+    font-size: 6em;
+}
+.line-height-1-25 {
+    line-height: 1.25;
+}
+.line-height-1-35 {
+    line-height: 1.35;
+}
+.bg-fafafa {
+    background-color: #fafafa;
+}
+.bg-fff {
+    background-color: #fff;
+}
+.bg-ed1c24 {
+    background-color: #ed1c24;
+}
+.bg-0e1124 {
+    background-color: #0e1124;
+}
+.color-fff {
+    color: #fff;
+}
+.color-333 {
+    color: #333;
+}
+.color-666 {
+    color: #666;
+}
+.color-bd1e1e {
+    color: #bd1e1e;
+}
+.color-bd1e1e.active {
+    color: #333;
+}
+.color-8a8a8a {
+    color: #8a8a8a;
+}
+.hover-color-333:hover {
+    color: #333;
+}
+
+.dis-block {
+    display: block;
+}
+
+.dis-none {
+    display: none;
+}
+
+.dis-flex {
+    display: flex;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+.justify-content-flex-end {
+    justify-content: flex-end;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.align-items-center {
+    align-items: center;
+}
+.h-100 {
+    height: 100%;
+}
+.h-unset {
+    height: unset;
+}
+.h3 {
+    height: 3px;
+}
+.h40 {
+    height: 40px;
+}
+.h50 {
+    height: 50px;
+}
+.h55 {
+    height: 55px;
+}
+.h70 {
+    height: 70px;
+}
+.h80 {
+    height: 80px;
+}
+.h100 {
+    height: 100px;
+}
+.w-30vw {
+    width: 30vw;
+}
+.w50 {
+    width: 50px;
+}
+.w1000 {
+    width: 1000px;
+}
+.w1160 {
+    width: 1160px;
+}
+.w1300 {
+    width: 1300px;
+}
+.w-100 {
+    width: 100%;
+}
+.w-80 {
+    width: 80%;
+}
+.w-70 {
+    width: 70%;
+}
+.w-60 {
+    width: 60%;
+}
+.w-50 {
+    width: 50%;
+}
+.w-45 {
+    width: 45%;
+}
+.w-40 {
+    width: 40%;
+}
+.w-35 {
+    width: 35%;
+}
+.w-30 {
+    width: 30%;
+}
+.w-25 {
+    width: 25%;
+}
+.w-23 {
+    width: 23%;
+}
+.w-20 {
+    width: 20%;
+}
+.w-15 {
+    width: 15%;
+}
+.w-10 {
+    width: 10%;
+}
+.w-4 {
+    width: 4%;
+}
+.mw800 {
+    max-width: 800px;
+}
+.p120-0-80-0 {
+    padding: 120px 0 80px 0;
+}
+.p80-0-80-0 {
+    padding: 80px 0 80px 0;
+}
+.p0-20 {
+    padding: 0 20px;
+}
+.p10-20 {
+    padding: 10px 20px;
+}
+.p20-0 {
+    padding: 20px 0;
+}
+.p60-0 {
+    padding: 60px 0;
+}
+.p40-0 {
+    padding: 40px 0;
+}
+.p80-0 {
+    padding: 80px 0;
+}
+.p20-40 {
+    padding: 20px 40px;
+}
+.p40 {
+    padding: 40px;
+}
+.p20 {
+    padding: 20px;
+}
+.pb-56-25 {
+    padding-bottom: 56.25%;
+}
+.padding-block {
+    padding: 4% 8% 8% 8%;
+}
+.pt80 {
+    padding-top: 80px;
+}
+.ma {
+    margin: 0 auto;
+}
+.mr30 {
+    margin-right: 30px;
+}
+.ml20 {
+    margin-left: 20px;
+}
+.ml40 {
+    margin-left: 40px;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.mt30 {
+    margin-top: 30px;
+}
+.mt40 {
+    margin-top: 40px;
+}
+.mt50 {
+    margin-top: 50px;
+}
+.mt70 {
+    margin-top: 70px;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+.mb30 {
+    margin-bottom: 30px;
+}
+.mb50 {
+    margin-bottom: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-transform-uppercase {
+    text-transform: uppercase;
+}
+.border-top-d8 {
+    border-top: 1px solid #d8d8d8
+}
+.border-radius-50 {
+    border-radius: 50%;
+}
+.pos-relative {
+    position: relative;
+}
+.pos-absolute {
+    position: absolute;
+}
+.pos-fixed {
+    position: fixed;
+}
+.t0 {
+    top: 0;
+}
+.l0 {
+    left: 0;
+}
+.z5 {
+    z-index: 5;
+}
+.z3 {
+    z-index: 3;
+}
+.bg-overlay {
+    background-color: transparent;
+    position: fixed;
+    visibility: hidden;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.bg-overlay.active {
+    z-index: 2;
+    visibility: visible;
+    background-color: rgba(0,0,0,.8);
+}
+.list-style-type-disc {
+    list-style-type: disc;
+}
+.box-shadow-header {
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+@media only screen and (max-width: 1300px) {
+    body {
+        font-size: 8px;
+    }
+    .ipad-w-90 {
+        width: 90%;
+    }
+    
+}
