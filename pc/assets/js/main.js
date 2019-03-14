@@ -1,10 +1,7 @@
-function openMenu() {
-	$('.mobi-menu').css('right','0');
-	$('.bg-overlay').addClass('active');
-	bodyScrollLock.disableBodyScroll();
-}
-function closeMenu() {
-	$('.mobi-menu').css('right','-310px');
-	$('.bg-overlay').removeClass('active');
-	bodyScrollLock.enableBodyScroll();
+
+function goToByScroll(item) {
+	var id = $(item).attr("data-goto");
+    $('html,body').animate({
+        scrollTop: $("#" + id).offset().top - 50
+    }, 'slow');
 }

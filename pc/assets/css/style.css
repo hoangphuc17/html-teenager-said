@@ -31,6 +31,12 @@ a {
     background-repeat: no-repeat;
     background-position: top;
 }
+.bg-4 {
+    background-image: url(../images/bg-4.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
 .bg-button-dang-ky {
     background-image: url(../images/button-dang-ky.png);
     background-size: 100%;
@@ -55,6 +61,14 @@ a {
     width: 100%;
     height: 100%;
 }
+.bg-button-video {
+    background-image: url(../images/button-video.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 .bg-button-xem-them {
     background-image: url(../images/button-xem-them.png);
     background-size: 100%;
@@ -65,6 +79,14 @@ a {
 }
 .bg-button-xem-them-2 {
     background-image: url(../images/button-xem-them-2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.bg-logo-thieu-nien-noi {
+    background-image: url(../images/logo-thieu-nien-noi.png);
     background-size: 100%;
     background-repeat: no-repeat;
     display: block;
@@ -150,6 +172,9 @@ a {
 .color-666 {
     color: #666;
 }
+.color-7b7b7b {
+    color: #7b7b7b;
+}
 .color-bd1e1e {
     color: #bd1e1e;
 }
@@ -219,6 +244,9 @@ a {
 .h100 {
     height: 100px;
 }
+.h200 {
+    height: 200px;
+}
 .w-30vw {
     width: 30vw;
 }
@@ -243,6 +271,9 @@ a {
 .w-70 {
     width: 70%;
 }
+.w-66 {
+    width: 66%;
+}
 .w-60 {
     width: 60%;
 }
@@ -257,6 +288,12 @@ a {
 }
 .w-35 {
     width: 35%;
+}
+.w-34{
+    width: 34%;
+}
+.w-32{
+    width: 32%;
 }
 .w-30 {
     width: 30%;
@@ -315,6 +352,9 @@ a {
 .p20 {
     padding: 20px;
 }
+.p10 {
+    padding: 10px;
+}
 .pb-56-25 {
     padding-bottom: 56.25%;
 }
@@ -326,6 +366,9 @@ a {
 }
 .pt80 {
     padding-top: 80px;
+}
+.pr10 {
+    padding-right: 10px;
 }
 .ma {
     margin: 0 auto;
@@ -432,6 +475,53 @@ a {
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.lc2 {
+    -webkit-line-clamp: 2;
+}
+.lc3 {
+    -webkit-line-clamp: 3;
+}
+.lc4 {
+    -webkit-line-clamp: 4;
+}
+.lc5 {
+    -webkit-line-clamp: 5;
+}
+
+.text-ellipsis {
+    display: -webkit-box!important;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+a.category {
+    font-weight: 600;
+    font-size: 1.4em;
+    color: #7b7b7b;
+    font-family: FiraSans-Regular,Arial;
+    margin-right: 5px;
+    line-height: 1.35;
+}
+.time-ago {
+    font-family: FiraSans-Regular,Arial;
+    font-size: 1.2em;
+    color: #9b9b9b;
+    line-height: 1.35;
+}
+.btn-share {
+    font-family: Arial;
+    color: #4167b2;
+    font-size: 1.3em;
+    border: solid 1px #4167b2;
+    padding: 5px 25px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.btn-share:hover {
+    background-color: #4167b2;
+    color: #fff;
 }
 
 
